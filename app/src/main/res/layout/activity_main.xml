@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abhishekpc.intent.MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your URL"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:id="@+id/urltxt" />
+    <Button
+        android:id="@+id/openweb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Website"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/urltxt"
+        android:background="@android:color/holo_orange_light"
+        android:padding="12dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter place to check map"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="244dp"
+        android:id="@+id/maptxt"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Map"
+        android:id="@+id/openmap"
+        android:layout_below="@+id/maptxt"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_blue_bright"
+        />
+
+</RelativeLayout>
